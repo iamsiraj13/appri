@@ -1,0 +1,239 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+  .app-main {
+    margin-left: -32px;
+  }
+  .app-shape-2 {
+    bottom: 18%;
+    right: -19%;
+  }
+}
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+  .main-menu ul li a {
+    padding: 20px 10px;
+  }
+  .header-btn a {
+    padding: 20px 44px;
+  }
+  .slider-text {
+    margin-top: 300px;
+  }
+  .slider-height {
+    min-height: 1060px;
+    background-position: center center;
+  }
+  .feature-text p {
+    padding: 0 4px;
+  }
+  .how-work-img img {
+    width: 100%;
+  }
+  .screenshot-img {
+    margin-left: 0;
+  }
+  .screenshot-img img {
+    width: 100%;
+  }
+  .price-link a {
+    padding: 20px 19px;
+  }
+  .faq-img img {
+    width: 100%;
+    margin-left: -10px;
+    margin-top: 20px;
+  }
+  .faq-area {
+    padding-top: 222px;
+  }
+  .blog-img img {
+    max-width: 100%;
+  }
+  .blog-content {
+    padding: 0 21px;
+  }
+  .video-wrapper {
+    margin-left: -81px;
+  }
+  .inner-blog {
+    padding: 19px 25px;
+  }
+  .blog-meta span {
+    display: inline-block;
+    margin-right: 11px;
+  }
+}
+
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+  .slider-text {
+    margin-top: 327px;
+  }
+  .header-btn {
+    display: none;
+  }
+  .slider-height {
+    min-height: 902px;
+    background-position: bottom;
+  }
+  .shape-01 {
+    position: absolute;
+    left: 3%;
+    top: 10%;
+  }
+  .slider-text {
+    margin-top: 249px;
+  }
+  .feature-text p {
+    padding: 0 5px;
+  }
+  .how-work-box {
+    margin-bottom: 30px;
+  }
+  .screenshot-img {
+    margin-left: 0;
+  }
+  .screenshot-img img {
+    max-width: 100%;
+    margin: 0;
+  }
+  .faq-area {
+    padding-top: 150px;
+  }
+  .faq-img img {
+    margin-left: 0;
+  }
+  .video-wrapper {
+    margin-left: -10px;
+    background-position: center center;
+  }
+  .blog-content {
+    padding: 0 10px;
+  }
+  .blog-img img {
+    width: 100%;
+  }
+  .inner-blog {
+    padding: 17px;
+    border-radius: 5px;
+  }
+  .available-btn {
+    margin-left: 62px;
+  }
+  .subscriber-bg {
+    margin-top: 100px;
+    padding: 65px 21px;
+  }
+  .subscribe-area {
+    padding-top: 0;
+  }
+  .subscribe-form form {
+    padding-left: 36px;
+  }
+}
+
+/* small mobile :320px. */
+@media (max-width: 767px) {
+  .header-btn a {
+    display: none;
+  }
+  .slider-height {
+    min-height: 650px;
+  }
+  .slider-text {
+    margin-top: 160px;
+  }
+  .shape-wrapper {
+    display: none;
+  }
+  .slider-text h2 {
+    font-size: 38px;
+  }
+  .slider-text p {
+    font-size: 18px;
+  }
+  .border-btn {
+    margin-top: 10px;
+    padding: 23px 57px;
+  }
+  .single-fact {
+    margin-bottom: 30px;
+    border: 1px solid #ddd;
+    padding: 30px 0px;
+  }
+  .video-wrapper {
+    background-position: center center;
+  }
+  .how-work-img img {
+    max-width: 100%;
+  }
+  .how-work-box {
+    margin-bottom: 30px;
+  }
+  .testimonial-item p {
+    font-size: 20px;
+  }
+  .screenshot-img {
+    margin: 0;
+  }
+  .screenshot-img img {
+    max-width: 100%;
+  }
+  .faq-area {
+    padding-top: 130px;
+  }
+  .faq-img img {
+    width: 100%;
+    margin: 0;
+  }
+  .faq-wrapper h2::after {
+    display: none;
+  }
+  .faq-wrapper h2.collapsed::after {
+    display: none;
+  }
+  .blog-box {
+    margin-bottom: 169px;
+  }
+  .inner-blog {
+    max-width: 300px;
+  }
+  .blog-box {
+    margin-left: 41px;
+  }
+  .subscribe-area {
+    padding-top: 0;
+    margin-top: -57px;
+  }
+  .available-area h2 {
+    font-size: 48px;
+  }
+  .subscriber-title h3 {
+    font-size: 31px;
+    text-align: center;
+    margin-bottom: 26px;
+  }
+  input {
+    width: 220%;
+    margin-left: -113px;
+    margin-bottom: 20px;
+  }
+  .subscribe-form button {
+    position: static;
+    margin-left: -73px;
+  }
+  .available-btn {
+    margin-left: 17%;
+  }
+  .subscriber-bg {
+    margin-top: 100px;
+  }
+}
+
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .container {
+    width: 450px;
+  }
+}
